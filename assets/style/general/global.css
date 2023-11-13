@@ -302,13 +302,13 @@ body {
 }
 
 .copyright_cont {
-    padding: 30px 588px;
+    padding: 30px;
+    text-align: center;
     background-color: var(#FFF);
-    border-top: solid 0.8px var(--footerColor);
+    border-top: solid 1px var(--footerColor);
 }
 
 .parag_copyright {
-    width: 264px;
     font-family: var(--popins_400);
     color: var( --colorText7);
     font-size: 13px;
