@@ -1,0 +1,26 @@
+:root {
+    --colorWhite: #FFF;
+    --colorBlack: #000;
+    --colorFooterBlack: #252525;
+    --colorText: #5C5C5C;
+    --colorText2: #868686;
+    --colorText3: #969696;
+    --colorText4: #545454;
+    --colorText5: #515151;
+    --colorText7: #686868;
+    --inputcolor: #787878;
+    --colorText6: #00329B;
+    --bottomAsside1: #C7C7C7;
+    --borderBotom: #C4C4C4;
+    --headerBlueColor: #1090CB;
+    --mainBackground: rgba(16, 144, 203, 0.10);
+    --colorAfterCircle: #08D3BB;
+    --footerUpperShare: #E8F4FA;
+    --wepSite: #050505;
+    --seoTag: #ECFFDA;
+    --immersive: #DAE6FF;
+    --codding: #FFE5DA;
+    --colorCard: #F4F4F4;
+    --footerColor: #D2D2D2;
+    --colorbtnInFooter: #FFF4F4;
+}

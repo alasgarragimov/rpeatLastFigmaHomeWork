@@ -1,0 +1,316 @@
+body {
+    font-family: var(--popins_400);
+}
+
+
+/****************HEADER*************************/
+
+.header {
+    background-color: var( --colorWhite);
+    padding: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: solid 0.7px var( --borderBotom);
+}
+
+.travolic_cont {
+    color: var(--headerBlueColor);
+    font-family: var(--popins_700);
+    font-size: 29px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.first_page_home_cont {
+    display: flex;
+    align-items: center;
+    gap: 168px;
+}
+
+.navBar {
+    display: flex;
+    gap: 84px;
+}
+
+.navList:nth-child(1) a {
+    color: var(--headerBlueColor);
+    font-family: var(--popins_400);
+    font-size: 16px;
+}
+
+.navItem {
+    position: relative;
+}
+
+.navItem::after {
+    content: url();
+    background-color: var( --colorAfterCircle);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    position: absolute;
+    left: -8px;
+    top: -4px;
+    animation-name: greenCircle;
+    animation-duration: 0.5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes greenCircle {
+    from {
+        opacity: 1;
+        top: 1;
+    }
+    to {
+        opacity: 0.6;
+        top: -1;
+    }
+}
+
+.navList a {
+    color: var(--colorBlack);
+    font-family: var(--popins_400);
+    font-size: 16px;
+}
+
+.contact_us_cont {
+    background-color: var(--headerBlueColor);
+    border-radius: 6px;
+    padding: 12px 26px;
+}
+
+.contactUs {
+    color: var( --colorWhite);
+    font-size: 13px;
+    font-family: var(--popins_400);
+}
+
+
+/*******************FOOTER****************************/
+
+.footer_UpperShare {
+    background-color: var(--footerUpperShare);
+    padding: 148px 462px;
+    margin-top: 60px;
+    position: relative;
+}
+
+.star_section_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+
+.starIcon_in_footer {
+    position: absolute;
+    top: -45px;
+    left: 168px;
+    animation: rotateAnimationStar 1.6s linear infinite;
+}
+
+@keyframes rotateAnimationStar {
+    0% {
+        opacity: 1;
+        transform: rotate(-10deg);
+    }
+    35% {
+        opacity: 0.7;
+        transform: rotate(45deg);
+    }
+    70% {
+        opacity: 0.7;
+        transform: rotate(45deg);
+    }
+    100% {
+        opacity: 1;
+        transform: rotate(-10deg);
+    }
+}
+
+.paiChart1Icon_in_footer {
+    position: absolute;
+    top: 90px;
+    right: 397px;
+    animation: rotateAnimationPai 1.6s linear infinite;
+}
+
+@keyframes rotateAnimationPai {
+    0% {
+        transform: rotate(-10deg);
+    }
+    70% {
+        transform: rotate(70deg);
+    }
+}
+
+.pragh_in_footer {
+    color: var(--colorFooterBlack);
+    font-family: var( --popins_600);
+    font-size: 30px;
+    line-height: 170%;
+    text-align: center;
+}
+
+.form_in_footer {
+    display: flex;
+    gap: 14px;
+}
+
+.email_input_in_footer {
+    width: 532px;
+    background-color: var( --colorWhite);
+    color: var(--inputcolor);
+    box-shadow: 0px 4px 84px 0px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 36px;
+    font-size: 16px;
+    line-height: 170%;
+    border: none;
+}
+
+.btn_in_footer {
+    height: 66px;
+    background-color: var( --colorBlack);
+    color: var(--colorbtnInFooter);
+    font-family: var(--popins_500);
+    border-radius: 10px;
+    padding: 20px 42px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 170%
+}
+
+
+/*******************FOOTER PAGE LOGO****************************/
+
+.footer_centerShare {
+    display: flex;
+    gap: 78px;
+    background-color: var( --colorWhite);
+    padding-top: 82px;
+    padding-left: 100px;
+    padding-right: 120px;
+    padding-bottom: 54px;
+}
+
+.content_in_left_footer {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.logo_info {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.logo_parag {
+    color: var( --colorText6);
+    font-family: var( --popins_700);
+    font-size: 16px;
+}
+
+.logo_desc {
+    font-family: var(--popins_400);
+    color: var(--colorText5);
+    width: 372px;
+    font-size: 16px;
+    line-height: normal;
+}
+
+.foot_logo_desc {
+    font-family: var(--popins_400);
+    color: var(--colorText5);
+    font-size: 16px;
+    line-height: normal;
+}
+
+.content_in_center_footer {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-family: var(--popins_500);
+    color: var(--colorBlack);
+    font-size: 17px;
+}
+
+.li_footer_centerShare a {
+    color: var( --colorText5);
+    font-family: var(--popins_400);
+    font-size: 16px;
+    line-height: 186.3%
+}
+
+
+/**************CONTACT US FOOTER************/
+
+.content_in_right_footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: var( --colorText5);
+    font-family: var(--popins_400);
+}
+
+.right_footer_contactUs {
+    color: var(--colorBlack);
+    font-family: var(--popins_500);
+    font-size: 17px;
+}
+
+.right_footer_contactUs_info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.right_footer_contact_desc {
+    font-family: var(--popins_400);
+    color: var( --colorText5);
+    font-size: 16px;
+    line-height: normal;
+    width: 282px;
+}
+
+
+/**************SOCIAL FOOTER************/
+
+.social_footer {
+    display: flex;
+    align-items: end;
+    gap: 16px;
+}
+
+.fb_icon,
+.insta_icon,
+.twiter_icon,
+.linkedin_icon {
+    background-color: var(#FFF);
+    border-radius: 50%;
+    padding: 12px;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.15);
+}
+
+.copyright_cont {
+    padding: 30px 588px;
+    background-color: var(#FFF);
+    border-top: solid 0.8px var(--footerColor);
+}
+
+.parag_copyright {
+    width: 264px;
+    font-family: var(--popins_400);
+    color: var( --colorText7);
+    font-size: 13px;
+    line-height: 190.6%
+}

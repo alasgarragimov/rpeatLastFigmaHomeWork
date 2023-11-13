@@ -1,0 +1,97 @@
+:root {
+    /****************** POPPINS FONTS ********************************/
+    --popins_900: MyPoppinsFont_900;
+    --popins_800: MyPoppinsFont_800;
+    --popins_700: MyPoppinsFont_700;
+    --popins_600: MyPoppinsFont_600;
+    --popins_500: MyPoppinsFont_500;
+    --popins_400: MyPoppinsFont_400;
+    --popins_300: MyPoppinsFont_300;
+    --popins_200: MyPoppinsFont_200;
+    --popins_100: MyPoppinsFont_100;
+    /****************** Roboto FONTS ********************************/
+    --roboto_900: MyRoboto_900;
+    --roboto_700: MyRoboto_700;
+    --roboto_500: MyRoboto_500;
+    --roboto_400: MyRoboto_400;
+    --roboto_300: MyRoboto_300;
+    --roboto_100: MyRoboto_100;
+}
+
+@font-face {
+    font-family: MyPoppinsFont_900;
+    src: url(Poppins/Poppins-Black.ttf);
+}
+
+@font-face {
+    font-family: MyPoppinsFont_800;
+    src: url(Poppins/Poppins-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: MyPoppinsFont_700;
+    src: url(Poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: MyPoppinsFont_600;
+    src: url(Poppins/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: MyPoppinsFont_500;
+    src: url(Poppins/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: MyPoppinsFont_400;
+    src: url(Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: MyPoppinsFont_300;
+    src: url(Poppins/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: MyPoppinsFont_200;
+    src: url(Poppins/Poppins-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: MyPoppinsFont_100;
+    src: url(Poppins/Poppins-Thin.ttf);
+}
+
+
+/***************************************************/
+
+@font-face {
+    font-family: MyRoboto_900;
+    src: url(Roboto/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: MyRoboto_700;
+    src: url(Roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: MyRoboto_500;
+    src: url(Roboto/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: MyRoboto_400;
+    src: url(Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: MyRoboto_300;
+    src: url(Roboto/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: MyRoboto_100;
+    src: url(Roboto/Roboto-Thin.ttf);
+}
