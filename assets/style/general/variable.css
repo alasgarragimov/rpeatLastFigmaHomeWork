@@ -1,7 +1,7 @@
 :root {
     --colorWhite: #FFF;
     --colorBlack: #000;
-    --colorFooterBlack: #252525;
+    --textColorBlack2: #252525;
     --colorText: #5C5C5C;
     --colorText2: #868686;
     --colorText3: #969696;
@@ -13,10 +13,12 @@
     --bottomAsside1: #C7C7C7;
     --borderBotom: #C4C4C4;
     --headerBlueColor: #1090CB;
+    --elipsePurpleColor: #9208D3;
     --mainBackground: rgba(16, 144, 203, 0.10);
     --colorAfterCircle: #08D3BB;
     --footerUpperShare: #E8F4FA;
     --wepSite: #050505;
+    --wepAplication: #EFEAFF;
     --seoTag: #ECFFDA;
     --immersive: #DAE6FF;
     --codding: #FFE5DA;

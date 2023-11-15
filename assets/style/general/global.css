@@ -97,7 +97,6 @@ body {
 .footer_UpperShare {
     background-color: var(--footerUpperShare);
     padding: 148px 462px;
-    margin-top: 60px;
     position: relative;
 }
 
